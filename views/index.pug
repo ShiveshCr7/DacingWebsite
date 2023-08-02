@@ -1,0 +1,54 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+       ul  
+           div#logo
+                img(src="/static/img/logo.png.png")
+                | SDA
+           li  #[a(href="/") Home]
+           li  #[a(href="/") About]
+           li  #[a(href="/") Service ]
+           li  #[a(href="/") class info]
+           li  #[a(href="/") Contact Us]
+    section#introSection 
+        div Welcome to Shivesh Dance Academy 
+        div.small  Eat Sleep Dance Repeat
+    section#missionSection 
+         h2 Our Mission   
+         div.card 
+             h3 Dance Preferction
+             div.card-box
+                 div.card-img
+                     img(src="/static/img/1.png.png")
+                 div.card-content   
+                     p This is best dance class in thr universe  
+         div.card 
+             h3 Dance The way you like
+             div.card-box
+                 div.card-img
+                     img(src="/static/img/2.png.png")
+                 div.card-content   
+                     p This is best dance class in thr universe 
+         div.card 
+              h3 Expert Teaching
+              div.card-box
+                 div.card-img
+                     img(src="/static/img/3.png.png")
+                 div.card-content   
+                     p This is best dance class in thr universe 
+    section#sponsorSection 
+        h2  Our Sponsor
+          div#sponsor 
+             img(src="/static/img/logo1.png.jpg", alt="Sponsor Image" ,class="spImage")
+             img(src="/static/img/logo2.png.png", alt="Sponsor Image" ,class="spImage")
+             img(src="/static/img/logo3.png.jpg", alt="Sponsor Image" ,class="spImage")
+             img(src="/static/img/logo4.png.jpg", alt="Sponsor Image" ,class="spImage")
+    footer#footer 
+        | Copyright ©  2020 shiveshdanceacademy.com |All right reserved.
+    script
+      include ../static/index.js
